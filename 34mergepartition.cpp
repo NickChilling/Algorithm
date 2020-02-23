@@ -47,5 +47,5 @@ int main()
         divisions.push_back({f,s});
     }
     merge(divisions);
-    cout << segs.size()<<endl;
+    cout << divisions.size()<<endl;
 }
