@@ -8,7 +8,7 @@ int p = 1331;
 
 int cmp(int l , int r)
 {
-    return h[r] - h[l-1]*p[r-l+1];
+    return h[r] - h[l-1]*q[r-l+1];
 }
 
 int main()
